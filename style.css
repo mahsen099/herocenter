@@ -7,7 +7,7 @@
     background-color: white;
   }
   .image {
-    background-image: url("../hero-center/photos/hero-textcenter.jpg");
+    background-image: url("./photos/hero-textcenter.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
