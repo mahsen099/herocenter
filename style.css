@@ -1,62 +1,54 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Verdana Pro' !important;
-  }
-  body {
-    background-color: white;
-  }
-  .image {
-    background-image: url("./photos/hero-textcenter.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    min-height: 400px;
-  }
-  .text-center {
-    padding: 12px 12px 12px 12px;
-    text-align: center;
-    min-height: 100%;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: 'Verdana Pro' !important;
+}
+body {
+  background-color: white;
+}
+.image {
+  background-image: url("./photos/hero-textcenter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 400px;
+}
+.text-center {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.full-text {
+margin: 0 auto;
+padding-top:10%;
+  padding-bottom:10%;
+}
+h2 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 42px;
+  margin-bottom: 12px;
+  letter-spacing: 0;
+  color: #54585A;
+}
+p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #262626;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+/* media*/
+@media(max-width: 426px){
   .full-text {
-    position: relative;
-    top: 50%;
-    transform: translateY(100%);  
-    overflow:auto;
+    padding-top:20%;
+   
   }
-  h2 {
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 42px;
-    margin-bottom: 12px;
-    letter-spacing: 0;
-    color: #54585A;
+}
+@media(max-width: 767px){
+  .full-text {
+    padding-top:15%;
+   
   }
-  p {
-    font-weight: 500;
-    font-size: 16px;
-    color: #262626;
-    letter-spacing: 0;
-    line-height: 24px;
-    margin-bottom: 16px;
-  }
-  
-  @media (min-width: 992px) {
-    .lg {
-      margin-left: 120px;
-      margin-right: 120px;
-    }
-  }
-  @media(max-width: 426px){
-    .full-text {
-      transform: translateY(50%);  
-     
-    }
-  }
-  @media(max-width: 376px){
-    .full-text {
-      transform: translateY(25%);  
-     
-    }
-  }
+}
